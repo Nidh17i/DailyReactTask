@@ -1,0 +1,37 @@
+1.    What is JSX and why do we use it in React?
+Ans:- JSX is JavaScript XML ,with the use of jsx in React write HTML code inside the js.
+
+2.    Explain the difference between a **component** and an **element** in React.
+Ans:- Component:- Component is the Reusable block of code in the react.we can access with the help of import and export.
+      Element:- Element is <div>,<p> 
+
+3.    What are **props** in React? Are they mutable or immutable?
+Ans:  Props:- Props is the properties where pass the data parent to child .and they are immutable..
+
+4.    What is the main difference between **state** and **props**?
+Ans:- props pass the data parent to child and it is immutable and not update the value. state where value is mutable and we can update value.
+
+5.    How do you update state in a React component?
+Ans:- Update the state value with the help of Usestate.
+
+6.    What is the significance of using **keys** in lists?
+Ans:- Key help to find  data easily.with the of key easily update or find value.
+
+7.    Explain **conditional rendering** with an example.
+Ans:- Conditional rendering handle the condition in react.with the help of ifelse, Ternary opertor and switch.
+
+8.    Why do we use **arrow functions** in event handlers?
+Ans:- Arrow Function in event handling  
+
+9.    What is the role of the `return` statement inside a functional component?
+Ans:- return statement inside a function return a value or function and stop the execution of function after return.
+
+10.   Write the syntax for passing and receiving props in a functional component.
+Ans:-  passing props
+       const greet=(props)=>{
+       return <h1>Hello {props.name}<h1>
+        }
+       receiving Props 
+        <greet name="Nidhi"/>
+
+ 
